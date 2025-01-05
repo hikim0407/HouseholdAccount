@@ -1,0 +1,23 @@
+.treeNode {
+    margin-left: 10px;
+  }
+  
+  .treeNodeTitle {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .treeNodeChildren {
+    margin-left: 20px;
+  }
+  
+  .childLink {
+    margin: 5px 0;
+    text-decoration: none;
+    color: #0070f3;
+  }
+  
+  .childLink:hover {
+    text-decoration: underline;
+  }
+  

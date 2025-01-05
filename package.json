@@ -1,0 +1,25 @@
+{
+  "name": "householdaccounts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ag-grid-community": "^33.0.3",
+    "ag-grid-react": "^33.0.3",
+    "firebase": "^11.1.0",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-dom": "^19.0.0",
+    "react-draggable": "^4.4.6"
+  }
+}

@@ -1,0 +1,40 @@
+/* styles/Sidebar.module.css */
+.sidebar {
+    width: 150px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.menuList {
+    margin: 0;
+    padding: 0;
+}
+
+.menuItem {
+    margin: 5px 0; /* 각 메뉴 항목의 간격 */
+}
+
+.menuItem:hover {
+    background-color: #e0e0e0; /* hover 시 배경색 변경 */
+}
+
+.menuItem span {
+    cursor: pointer; /* 클릭 가능 표시 */
+    display: inline-block; /* 클릭 영역을 늘리기 위해 */
+    padding: 5px; /* 클릭 영역 여유 */
+}
+
+/* 레벨에 따른 텍스트 들여쓰기 클래스 */
+.level-0 {
+    text-indent: 0; /* 기본값 */
+}
+
+.level-1 {
+    text-indent: 20px; /* 1단계 들여쓰기 */
+}
+
+.level-2 {
+    text-indent: 40px; /* 2단계 들여쓰기 */
+}

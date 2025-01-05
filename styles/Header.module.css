@@ -1,0 +1,8 @@
+/* styles/Header.module.css */
+.header {
+    padding: 20px;
+    background: #0070f3;
+    color: #fff;
+    text-align: center;
+    border: 1px solid black;
+}

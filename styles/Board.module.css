@@ -1,0 +1,50 @@
+/* styles/Board.module.css */
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.board {
+    background-color: #f9f9f9;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 900px;
+    overflow-y: auto;
+}
+
+.gridCell {
+    display: flex; /* 각 셀 내에 Flexbox 사용 */
+    align-items: center; /* 수직 중앙 정렬 */
+    justify-content: center; /* 수평 중앙 정렬 */
+    border: 1px dashed #ccc; /* 셀의 경계선 */
+    flex: 0 1 calc(33.333%);
+    box-sizing: border-box; /* 패딩과 여백을 포함한 크기 계산 */
+}
+
+.sidearea {
+    width: 150px;
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+}
+
+.sidelist {
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #e7f1ff;
+    cursor: move;
+}
+
+.component {
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: #e7f1ff;
+    cursor: move;
+    box-sizing: border-box;
+}
+
